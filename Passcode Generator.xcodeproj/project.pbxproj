@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B474A7CF27555FFA00DCDB7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B474A7CE27555FF900DCDB7C /* README.md */; };
+		B474A7D127555FFF00DCDB7C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B474A7D027555FFF00DCDB7C /* LICENSE */; };
 		B4E8F9702755530100C4BDCB /* Passcode_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F96F2755530100C4BDCB /* Passcode_GeneratorApp.swift */; };
 		B4E8F9722755530100C4BDCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F9712755530100C4BDCB /* ContentView.swift */; };
 		B4E8F9742755530100C4BDCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E8F9732755530100C4BDCB /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B474A7CE27555FF900DCDB7C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B474A7D027555FFF00DCDB7C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B4E8F96C2755530100C4BDCB /* Passcode Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passcode Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E8F96F2755530100C4BDCB /* Passcode_GeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passcode_GeneratorApp.swift; sourceTree = "<group>"; };
 		B4E8F9712755530100C4BDCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 		B4E8F9632755530100C4BDCB = {
 			isa = PBXGroup;
 			children = (
+				B474A7CE27555FF900DCDB7C /* README.md */,
+				B474A7D027555FFF00DCDB7C /* LICENSE */,
 				B4E8F96E2755530100C4BDCB /* Passcode Generator */,
 				B4E8F96D2755530100C4BDCB /* Products */,
 			);
@@ -216,7 +222,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B474A7CF27555FFA00DCDB7C /* README.md in Resources */,
 				B4E8F9772755530100C4BDCB /* Preview Assets.xcassets in Resources */,
+				B474A7D127555FFF00DCDB7C /* LICENSE in Resources */,
 				B4E8F9742755530100C4BDCB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
