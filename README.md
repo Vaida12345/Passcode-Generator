@@ -1,5 +1,5 @@
 # Passcode-Generator
-A offline random passcode generator.
+An offline random passcode generator.
 
 ## Usage
 Generates random passcode.
