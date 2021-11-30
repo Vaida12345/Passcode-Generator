@@ -16,7 +16,7 @@ struct ContentView: View {
     @State var includeUpperCasedLetters: Bool = true
     @State var includeLowerCasedLetters: Bool = true
     @State var includeNumbers: Bool = true
-    @State var includeSpecialSymbols: Bool = true
+    @State var includeSpecialSymbols: Bool = false
     
     @State var passcode: String = "1234567890"
     @State var isCopied = false
@@ -79,6 +79,22 @@ struct ContentView: View {
             
             Spacer()
         }
+        .onAppear {
+            changePasscode()
+        }
+        .onChange(of: [numberOfSections, numberOfCharactersPerSection]) { newValue in
+            changePasscode()
+        }
+        .onChange(of: separator, perform: { newValue in
+            changePasscode()
+        })
+        .onChange(of: [includeUpperCasedLetters, includeLowerCasedLetters, includeNumbers, includeSpecialSymbols]) { newValue in
+            changePasscode()
+        }
+    }
+    
+    func changePasscode() {
+        self.passcode = generatePasscode(sectionsCount: Int(numberOfSections), charactersPerSectionCount: Int(numberOfCharactersPerSection), separator: separator, includeUpperCase: includeUpperCasedLetters, includeLowerCase: includeLowerCasedLetters, includeNumbers: includeNumbers, includeSpecialSymbols: includeSpecialSymbols)
     }
     
 }
