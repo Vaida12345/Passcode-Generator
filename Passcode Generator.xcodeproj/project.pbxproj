@@ -9,59 +9,23 @@
 /* Begin PBXBuildFile section */
 		B474A7CF27555FFA00DCDB7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B474A7CE27555FF900DCDB7C /* README.md */; };
 		B474A7D127555FFF00DCDB7C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B474A7D027555FFF00DCDB7C /* LICENSE */; };
+		B4CBD51C2755CA0A000C5284 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CBD51B2755CA0A000C5284 /* Support.swift */; };
 		B4E8F9702755530100C4BDCB /* Passcode_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F96F2755530100C4BDCB /* Passcode_GeneratorApp.swift */; };
 		B4E8F9722755530100C4BDCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F9712755530100C4BDCB /* ContentView.swift */; };
 		B4E8F9742755530100C4BDCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E8F9732755530100C4BDCB /* Assets.xcassets */; };
 		B4E8F9772755530100C4BDCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E8F9762755530100C4BDCB /* Preview Assets.xcassets */; };
-		B4E8F995275553CA00C4BDCB /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F980275553CA00C4BDCB /* Fraction.swift */; };
-		B4E8F996275553CA00C4BDCB /* Int10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F981275553CA00C4BDCB /* Int10.swift */; };
-		B4E8F997275553CA00C4BDCB /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F982275553CA00C4BDCB /* Complex.swift */; };
-		B4E8F998275553CA00C4BDCB /* PreciseFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F983275553CA00C4BDCB /* PreciseFloat.swift */; };
-		B4E8F999275553CA00C4BDCB /* Arithmetical.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F984275553CA00C4BDCB /* Arithmetical.swift */; };
-		B4E8F99A275553CA00C4BDCB /* PreciseInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F985275553CA00C4BDCB /* PreciseInt.swift */; };
-		B4E8F99B275553CA00C4BDCB /* CommentCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F987275553CA00C4BDCB /* CommentCreator.swift */; };
-		B4E8F99C275553CA00C4BDCB /* Bechmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F988275553CA00C4BDCB /* Bechmark.swift */; };
-		B4E8F99D275553CA00C4BDCB /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F989275553CA00C4BDCB /* Point.swift */; };
-		B4E8F99E275553CA00C4BDCB /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F98A275553CA00C4BDCB /* Canvas.swift */; };
-		B4E8F99F275553CA00C4BDCB /* MachineLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F98B275553CA00C4BDCB /* MachineLearning.swift */; };
-		B4E8F9A0275553CA00C4BDCB /* FinderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F98C275553CA00C4BDCB /* FinderItem.swift */; };
-		B4E8F9A1275553CA00C4BDCB /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F98D275553CA00C4BDCB /* Support.swift */; };
-		B4E8F9A2275553CA00C4BDCB /* LinearTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F98F275553CA00C4BDCB /* LinearTransformation.swift */; };
-		B4E8F9A3275553CA00C4BDCB /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F990275553CA00C4BDCB /* Expression.swift */; };
-		B4E8F9A4275553CA00C4BDCB /* Polynomial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F991275553CA00C4BDCB /* Polynomial.swift */; };
-		B4E8F9A5275553CA00C4BDCB /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F992275553CA00C4BDCB /* Matrix.swift */; };
-		B4E8F9A6275553CA00C4BDCB /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F993275553CA00C4BDCB /* Plane.swift */; };
-		B4E8F9A7275553CA00C4BDCB /* Algebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8F994275553CA00C4BDCB /* Algebra.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B474A7CE27555FF900DCDB7C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B474A7D027555FFF00DCDB7C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B4CBD51B2755CA0A000C5284 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
 		B4E8F96C2755530100C4BDCB /* Passcode Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passcode Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E8F96F2755530100C4BDCB /* Passcode_GeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passcode_GeneratorApp.swift; sourceTree = "<group>"; };
 		B4E8F9712755530100C4BDCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4E8F9732755530100C4BDCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4E8F9762755530100C4BDCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4E8F9782755530100C4BDCB /* Passcode_Generator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Passcode_Generator.entitlements; sourceTree = "<group>"; };
-		B4E8F980275553CA00C4BDCB /* Fraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
-		B4E8F981275553CA00C4BDCB /* Int10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int10.swift; sourceTree = "<group>"; };
-		B4E8F982275553CA00C4BDCB /* Complex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Complex.swift; sourceTree = "<group>"; };
-		B4E8F983275553CA00C4BDCB /* PreciseFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreciseFloat.swift; sourceTree = "<group>"; };
-		B4E8F984275553CA00C4BDCB /* Arithmetical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arithmetical.swift; sourceTree = "<group>"; };
-		B4E8F985275553CA00C4BDCB /* PreciseInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreciseInt.swift; sourceTree = "<group>"; };
-		B4E8F987275553CA00C4BDCB /* CommentCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCreator.swift; sourceTree = "<group>"; };
-		B4E8F988275553CA00C4BDCB /* Bechmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bechmark.swift; sourceTree = "<group>"; };
-		B4E8F989275553CA00C4BDCB /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
-		B4E8F98A275553CA00C4BDCB /* Canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
-		B4E8F98B275553CA00C4BDCB /* MachineLearning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineLearning.swift; sourceTree = "<group>"; };
-		B4E8F98C275553CA00C4BDCB /* FinderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinderItem.swift; sourceTree = "<group>"; };
-		B4E8F98D275553CA00C4BDCB /* Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
-		B4E8F98F275553CA00C4BDCB /* LinearTransformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearTransformation.swift; sourceTree = "<group>"; };
-		B4E8F990275553CA00C4BDCB /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
-		B4E8F991275553CA00C4BDCB /* Polynomial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polynomial.swift; sourceTree = "<group>"; };
-		B4E8F992275553CA00C4BDCB /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
-		B4E8F993275553CA00C4BDCB /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
-		B4E8F994275553CA00C4BDCB /* Algebra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algebra.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +62,7 @@
 			children = (
 				B4E8F96F2755530100C4BDCB /* Passcode_GeneratorApp.swift */,
 				B4E8F9712755530100C4BDCB /* ContentView.swift */,
-				B4E8F97E275553CA00C4BDCB /* Support */,
+				B4CBD51B2755CA0A000C5284 /* Support.swift */,
 				B4E8F9732755530100C4BDCB /* Assets.xcassets */,
 				B4E8F9782755530100C4BDCB /* Passcode_Generator.entitlements */,
 				B4E8F9752755530100C4BDCB /* Preview Content */,
@@ -112,56 +76,6 @@
 				B4E8F9762755530100C4BDCB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B4E8F97E275553CA00C4BDCB /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				B4E8F97F275553CA00C4BDCB /* Numerics */,
-				B4E8F986275553CA00C4BDCB /* Support */,
-				B4E8F98D275553CA00C4BDCB /* Support.swift */,
-				B4E8F98E275553CA00C4BDCB /* Algebra */,
-			);
-			path = Support;
-			sourceTree = "<group>";
-		};
-		B4E8F97F275553CA00C4BDCB /* Numerics */ = {
-			isa = PBXGroup;
-			children = (
-				B4E8F980275553CA00C4BDCB /* Fraction.swift */,
-				B4E8F981275553CA00C4BDCB /* Int10.swift */,
-				B4E8F982275553CA00C4BDCB /* Complex.swift */,
-				B4E8F983275553CA00C4BDCB /* PreciseFloat.swift */,
-				B4E8F984275553CA00C4BDCB /* Arithmetical.swift */,
-				B4E8F985275553CA00C4BDCB /* PreciseInt.swift */,
-			);
-			path = Numerics;
-			sourceTree = "<group>";
-		};
-		B4E8F986275553CA00C4BDCB /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				B4E8F987275553CA00C4BDCB /* CommentCreator.swift */,
-				B4E8F988275553CA00C4BDCB /* Bechmark.swift */,
-				B4E8F989275553CA00C4BDCB /* Point.swift */,
-				B4E8F98A275553CA00C4BDCB /* Canvas.swift */,
-				B4E8F98B275553CA00C4BDCB /* MachineLearning.swift */,
-				B4E8F98C275553CA00C4BDCB /* FinderItem.swift */,
-			);
-			path = Support;
-			sourceTree = "<group>";
-		};
-		B4E8F98E275553CA00C4BDCB /* Algebra */ = {
-			isa = PBXGroup;
-			children = (
-				B4E8F98F275553CA00C4BDCB /* LinearTransformation.swift */,
-				B4E8F990275553CA00C4BDCB /* Expression.swift */,
-				B4E8F991275553CA00C4BDCB /* Polynomial.swift */,
-				B4E8F992275553CA00C4BDCB /* Matrix.swift */,
-				B4E8F993275553CA00C4BDCB /* Plane.swift */,
-				B4E8F994275553CA00C4BDCB /* Algebra.swift */,
-			);
-			path = Algebra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,27 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E8F998275553CA00C4BDCB /* PreciseFloat.swift in Sources */,
-				B4E8F9A4275553CA00C4BDCB /* Polynomial.swift in Sources */,
-				B4E8F9A6275553CA00C4BDCB /* Plane.swift in Sources */,
-				B4E8F9A3275553CA00C4BDCB /* Expression.swift in Sources */,
-				B4E8F99A275553CA00C4BDCB /* PreciseInt.swift in Sources */,
-				B4E8F995275553CA00C4BDCB /* Fraction.swift in Sources */,
-				B4E8F99B275553CA00C4BDCB /* CommentCreator.swift in Sources */,
-				B4E8F99F275553CA00C4BDCB /* MachineLearning.swift in Sources */,
-				B4E8F99C275553CA00C4BDCB /* Bechmark.swift in Sources */,
-				B4E8F9A7275553CA00C4BDCB /* Algebra.swift in Sources */,
-				B4E8F9A0275553CA00C4BDCB /* FinderItem.swift in Sources */,
-				B4E8F9A2275553CA00C4BDCB /* LinearTransformation.swift in Sources */,
 				B4E8F9722755530100C4BDCB /* ContentView.swift in Sources */,
-				B4E8F996275553CA00C4BDCB /* Int10.swift in Sources */,
-				B4E8F99D275553CA00C4BDCB /* Point.swift in Sources */,
-				B4E8F997275553CA00C4BDCB /* Complex.swift in Sources */,
-				B4E8F9A5275553CA00C4BDCB /* Matrix.swift in Sources */,
-				B4E8F9A1275553CA00C4BDCB /* Support.swift in Sources */,
 				B4E8F9702755530100C4BDCB /* Passcode_GeneratorApp.swift in Sources */,
-				B4E8F999275553CA00C4BDCB /* Arithmetical.swift in Sources */,
-				B4E8F99E275553CA00C4BDCB /* Canvas.swift in Sources */,
+				B4CBD51C2755CA0A000C5284 /* Support.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

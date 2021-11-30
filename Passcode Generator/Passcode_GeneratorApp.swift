@@ -12,6 +12,7 @@ struct Passcode_GeneratorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(minWidth: 800, maxWidth: .infinity, minHeight: 400, maxHeight: .infinity)
         }
     }
 }
