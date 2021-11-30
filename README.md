@@ -12,6 +12,4 @@ This app works completely offline and requires no internet connection. Nothing i
 
 ## Interface
 This app was written with [SwiftUI](https://developer.apple.com/xcode/swiftui/).
-
-
-## Preview
+<img width="1125" alt="Screen Shot 2021-11-30 at 11 54 26 AM" src="https://user-images.githubusercontent.com/91354917/143983187-d788a0b8-c800-4ced-b5d0-3e7b89cf8270.png">
